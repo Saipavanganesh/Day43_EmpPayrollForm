@@ -1,13 +1,27 @@
-*{
+body{
     margin: 0;
-    padding: 0;
+    height: 100%;
+    /* background-color: antiquewhite; */
 }
-.header-container{
+.header{
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+.header-content{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: left;
     align-items: center;
-    border: 1px solid black;
-    background-color: aquamarine;
-    height: 4vh;
-    font-size: large;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.emp-payroll{
+    color:#42515f;
+}
+*box{
+    box-sizing: border-box;
 }
