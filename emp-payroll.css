@@ -25,3 +25,45 @@ body{
 *box{
     box-sizing: border-box;
 }
+.form-content{
+    min-height: calc(100%-80px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 65%;
+    padding: 44px 60px;
+    border: 1px solid #f5f5f5;
+    border-radius: 8px;
+}
+.form-head{
+    color: #42515f;
+    text-transform: capitalize;
+    padding-bottom: 20px;   
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.label{
+    min-width: 140px;
+}
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+.text{
+    font-size: 16px;
+    color: #42515f;
+}
+.input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
