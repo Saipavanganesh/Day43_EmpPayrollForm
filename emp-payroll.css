@@ -83,3 +83,10 @@ label{
     border-radius: 50px;
     margin-left: 12px;
 }
+select{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    resize: vertical;
+    background-color: transparent;
+}
