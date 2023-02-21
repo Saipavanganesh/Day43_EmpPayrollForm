@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 10;
     height: 100%;
     /* background-color: antiquewhite; */
 }
@@ -52,6 +52,7 @@ body{
 .label{
     min-width: 140px;
 }
+
 label{
     padding: 12px 12px 12px 0;
     display: inline-block;
